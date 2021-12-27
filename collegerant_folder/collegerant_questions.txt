@@ -1,0 +1,25 @@
+```
+NOTE: Your goal is to: 
+1. create a script to preprocess these tuples
+2. create CRUD operations using PHP functions to insert, remove, modify, and read from a collegerant_questions MAMP SQL server. Unlike piazza_questions.sql, the database definitions and structures are not given to you for collegerant_questions. Therefore, you must figure out how to create a MAMP database server yourself. You may use "id", "problem", "subject", "answer" as fields in your database or you may change them. "id" should be the unique key to your collegerant_questions table.
+```
+
+id|problem|subject|answer
+1|Finals are trash
+My grade just went from a 95 to an 80 after my final micro exam.
+
+Update: Stat exam with the same professor I have for micro, grade went from a 91 to a 79.
+
+That is all. FML.|failed exams;||
+
+
+2| Well I lost my internship
+I’ve been with an agency for my human services degree program since October. From then until now, I thought I was doing well my supervisor told me I was doing good, but today after I got my evaluation I got low scores. Apparently I’m not good enough so they fired me. I’m so depressed I can’t stop crying. I don’t know what I’m going to do.|internship; low grades;||
+
+
+3|I really though I could bounce back with a 3.0 GPA this semester, but I guess not|low grades; GPA;||
+
+
+4| Seriously, group project finals can fuck off
+It took me 2 weeks to get my teammates to even START the document, which is one night before it’s done. We then turn it in and the originality score is THIRTY PERCENT. Now I have to go in and fix the sections myself. I would much rather have taken a paper final, this is so ridiculous.|group projects; low grades;||
+

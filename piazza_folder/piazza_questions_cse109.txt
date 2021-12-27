@@ -1,0 +1,17 @@
+```
+NOTE: Your goal is to: 
+1. create a script to preprocess these tuples
+2. create CRUD operations using PHP functions to insert, remove, modify, and read from piazza_questions::cse109 table in given MAMP SQL Server. You should refer to 'piazza_questions_sql' for details on cse109 table structure. 
+```
+
+id|problem|subject|error|answer|pid
+1|When I do my deserialize message method I get the four bytes for the int field of timestamp I made my array of unsigned chars which are 0 0 0 3. I am sure of them being these values. However, when I run them through the deserialize int function it returns an int value of 768. Anyone know how I'm getting here, I'm using the provided method from classwork.|deserialize message; technical question;||deserialize int expects an int message, which is 5 bytes including the type header: e.g. 1 0 0 0 3|13
+
+
+2|Is the final exam cumulative? Should we make sure we know everything from the midterm review guide as well or just the new guide?|final; exam topics;||It's cumulative|15
+
+
+3|I was wondering if you could better explain the intermediary method of serialize_int_field. From my understanding in serialize_message, we are supposed to take in the message struct and call serailize_int_field and pass in the timestamp and some string name... we don't understand what name is supposed to be and how this differs from serialize int? It feels as though we could just go straight from serialize message and just call serialize_int within the field method to get the job done. Am i missing anything?|method explanation; technical question; serialize message;||Serialize int field produce a serialized field message with an int payload. You would call it like this: serialize_int_field("timestamp", msg.timestamp) and it would produce a message like this: 03 09 t i m e s t a m p 01 00 00 00 00|16
+
+
+4|I'm confused what exactly I am supposed to compress/how to do so. For example, if my serialized message is a vector containing: 47Message339timestamp10000000138username23Bob37message23hey how do I compress/encode this? Do I need to change the letters to some other form?|compress message; serialize message; vector;||You should get it printed out in hexadecimal bytes (like in Professor Montella's posted example). Then you can compress using Byte Pair encoding.|18
